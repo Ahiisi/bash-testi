@@ -20,5 +20,10 @@ namespace laskin
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            testBox.Text = "tervehdys";
+        }
     }
 }
